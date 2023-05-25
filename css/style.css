@@ -4,3 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.text-truncate {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
